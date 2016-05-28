@@ -7,6 +7,7 @@
 
 # Site settings
 title: memo.blue
+myname: memo
 email: me@mywebsite.url
 description: > # this means to ignore newlines until "baseurl:"
   Just a place to keep track of stuff…

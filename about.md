@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Just a quick Jekyll based site to keep track of the stuff I come across as I'm learning how to code and stuff.
+Just a little Jekyll powered blog to keep track of the stuff I come across as I'm learning how to code and stuff.
 
-If you need to contact me, obviously you need to replace the "my website part" with the actual URL of my website. If you're not a bot, it should be ok ;)
+The reason why I decided to write this blog can be found there in the [Recurse Center User's Manual][1].
+
+If you need to contact me, feel free to use the email in the footer, but you'll need to replace the "my website" and "url" parts with the actual URL of my website of course… I just want to make sure you're not a bot ;)
 
 Thanks!
+
+[1]:https://www.recurse.com/manual#sec-principles
