@@ -2,7 +2,7 @@
 layout: post
 title:  "Sketch tips"
 date:   2016-05-29 15:05:04 -04:00
-categories: Sketch, Design
+categories: Sketch, Tip, Design
 ---
 
 These are the highlights of what I learned reading the official [Sketch documentation][1] and a couple blog posts here and there.
