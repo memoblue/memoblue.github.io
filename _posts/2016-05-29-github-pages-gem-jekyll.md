@@ -11,12 +11,23 @@ But when I installed that gem, it totally broke my Jekyll install. It wouldn't b
 
 After a bunch of Googling, I came to the conclusion that if I installed [rbenv][2] instead of using the system's ruby version, the problem would most likely go away.
 
-I already had [Homebrew][3] on my Mac, so I used it to install `rbenv`, just following the instructions in the readme. The only part that tripped me up for a bit was my `~/.bash_profile` setup, but once I added this stuff, everything else fell into place and Jekyll was fixed:
+I already had [Homebrew][3] on my Mac, so I used it to install `rbenv`, just following the instructions in the readme. The only part that tripped me up for a bit was my `~/.bash_profile` setup. I had to add this to it:
 
 ```
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
+
+I also kept my gem file much simpler than in the docs:
+
+```
+source 'https://rubygems.org'
+
+# bundle update github-pages
+gem 'github-pages', group: :jekyll_plugins
+```
+
+Now everything is back to normal and Jekyll is working again :) 
 
 
 [1]:https://jekyllrb.com/docs/github-pages/#deploying-jekyll-to-github-pages
