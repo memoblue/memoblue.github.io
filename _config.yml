@@ -16,5 +16,7 @@ url: "http://memo.blue" # the base hostname & protocol for your site
 twitter_username: mmoblu
 github_username:  memoblue
 
+permalink: /:year/:month/:title
+
 # Build settings
 markdown: kramdown

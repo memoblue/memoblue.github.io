@@ -2,10 +2,12 @@
 layout: post
 title:  "Sketch tips"
 date:   2016-05-29 15:05:04 -04:00
-categories: Sketch, Tip, Design
+tags: ['Design','Tip','Sketch']
 ---
 
 These are the highlights of what I learned reading the official [Sketch documentation][1] and a couple blog posts here and there.
+
+The [official shortcuts list][5] is a great source of info.
 
 ## Paths
 
@@ -53,3 +55,4 @@ These are the highlights of what I learned reading the official [Sketch document
 [2]:https://labs.invisionapp.com/craft
 [3]:http://sketchtoolbox.com
 [4]:https://github.com/frankko/Artboard-Tools
+[5]:https://www.sketchapp.com/learn/documentation/13-other/3-shortcuts.html

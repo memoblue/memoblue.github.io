@@ -2,7 +2,7 @@
 layout: post
 title:  "Multiple Github accounts & SSH keys"
 date:   2016-05-28 15:57:45 -04:00
-categories: Github, Git
+tags: ['Coding','Git','Github']
 ---
 
 You can't use the same SSH key for different GitHub accounts, but it's pretty easy to setup a different key for each one… This [Stack Overflow question][1] helped me figure most of it out, but not everything. So here's a recap.
