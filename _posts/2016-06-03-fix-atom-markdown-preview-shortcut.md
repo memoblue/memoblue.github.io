@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Atom markdown-preview shortcut not working"
+title:  "How to fix Atom's markdown-preview shortcut"
 date:   2016-06-03 09:36:59 -04:00
 tags: ['Tip','Blogging','Atom']
 ---
-
-# How to fix Atom's markdown-preview shortcut
 
 The [markdown-preview][1] Atom plugin is perfect for blogging. But for some reason, I never got the "Toggle Preview" shortcut to work… Until today!
 
