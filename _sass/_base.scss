@@ -124,14 +124,15 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 2px;
+    color: #27beb3;
+    background-color: #edf0f0;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 1px 5px 3px;
 }
 
 pre {

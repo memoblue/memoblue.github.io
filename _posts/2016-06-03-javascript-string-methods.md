@@ -16,8 +16,8 @@ Methods                 | Description                               | Specs | Do
 `str.includes(a)`       | `a` is in `str`? (case sensitive)         | ES6   | [MDN][3]
 `str.indexOf(a)`        | position of first `a`                     |       | [MDN][4]
 `str.lastIndexOf(a)`    | position of last `a` from end             |       | [MDN][5]
-`str.match(/a/g);`      | array off all "a" (only 1st if not `g`)  |       | [MDN][6]
-`str.repeat(n)`         | string of `str` * `n`                      | ES6   | [MDN][7]
+`str.match(/a/g);`      | array off all "a" (only 1st if not `g`)   |       | [MDN][6]
+`str.repeat(n)`         | string of `str` * `n`                     | ES6   | [MDN][7]
 `str.replace(a, b)`     | replace `a` (regex/str) with `b` (str/fn) |       | [MDN][8]
 `str.search(regexp)`    | position of first `regexp`                |       | [MDN][9]
 `str.slice(start, end)` | string from `start` to `end`              |       | [MDN][10]
@@ -36,7 +36,7 @@ I'm going to ignore the deprecated and experimental methods, and quickly go over
 
 The Unicode related methods are useful when you need them, but I'm fine with looking them up when that happens.
 
-```
+```javascript
 String.fromCharCode()  // old, faster, doesn't cover all Unicode values
 str.charCodeAt(index)  // old, etc.
 String.fromCodePoint() // ES6, slower, works with ALL legal Unicode values
@@ -46,13 +46,13 @@ str.normalize()
 
 ### Spotty browser support
 
-```
+```javascript
 str.localeCompare() // string sorting with i18n features
 ```
 
 ### Not super useful
 
-```
+```javascript
 str.anchor() // I can't think of why I'd want to use this
 str.concat() // just use +
 str.link() // make an <a> HTML element… woohoo…

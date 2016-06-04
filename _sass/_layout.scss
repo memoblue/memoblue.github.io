@@ -199,12 +199,12 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 32px;
     }
 }
 
@@ -233,5 +233,20 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    table {
+        margin-bottom: 1em;
+        border-collapse: collapse;
+        font-size: .9em;
+    }
+
+    th, td {
+        padding: 5px .75em 4px;
+        border: 1px solid $grey-color-light;
+    }
+
+    th {
+        text-align: left;
     }
 }

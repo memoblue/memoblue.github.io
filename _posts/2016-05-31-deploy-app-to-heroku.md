@@ -9,15 +9,15 @@ Once you [signed up for a free account][1] and installed the [heroku toolbelt][2
 
 Add a new `start` script to your `package.json` file. For instance, if you run `node server.js` to run your app locally, then your script should look like that:
 
-```
+```json
 "scripts": {
   "start": "node server.js"
-},
+}
 ```
 
 In that `server.js` file, you'll want to make sure you tell your app which port to bind to using the node environment variable Heroku provides. Something like that should do the trick:
 
-```
+```javascript
 var express = require('express');
 
 var app = express();
