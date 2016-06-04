@@ -30,9 +30,11 @@ Methods                 | Description                               | Specs | Do
 
 I'm going to ignore the deprecated and experimental methods, and quickly go over the more esoteric ones below.
 
-## Unicode
+## The rest
 
-The Unicode related methods are useful when you need them, but I'm fine with looking them up when needed.
+### Unicode
+
+The Unicode related methods are useful when you need them, but I'm fine with looking them up when that happens.
 
 ```
 String.fromCharCode()  // old, faster, doesn't cover all Unicode values
@@ -42,13 +44,13 @@ str.codePointAt(pos)   // ES6, etc.
 str.normalize()
 ```
 
-## Spotty browser support
+### Spotty browser support
 
 ```
 str.localeCompare() // string sorting with i18n features
 ```
 
-## Not deprecated, but… why not?
+### Not super useful
 
 ```
 str.anchor() // I can't think of why I'd want to use this
