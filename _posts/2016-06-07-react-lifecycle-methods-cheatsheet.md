@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React lifecycle methods"
-date:   2016-06-07 22:23:54 -04:00
+date:   2016-06-17 23:53:46 -04:00
 tags: ['Coding','Cheat Sheet','JavaScript','React']
 ---
 
