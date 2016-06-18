@@ -31,9 +31,9 @@ Name     | called       | use setState()
 
 ### Unmounting
 
-Name     | called       | 1st render() | use setState()
+Name     | called       | use setState()
 ---------|--------------|--------------------
-`componentWillUnmount()` | before unmounting | not called | no
+`componentWillUnmount()` | before unmounting | no
 
 ## Examples
 
