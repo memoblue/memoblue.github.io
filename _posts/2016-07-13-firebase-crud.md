@@ -106,7 +106,7 @@ dbRef.child('app').update({
 })
 ```
 
-## Accessing different points in the database
+### Note: accessing different points in the database
 
 You can use the `child()` method or a "multi path".
 
