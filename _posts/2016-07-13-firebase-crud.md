@@ -45,7 +45,7 @@ dbRef.set({
 });
 ```
 
-For arrays, there is a `dbRef.push()` method which creates a new ref (with a automatically generated id) to which you can add data to.
+For arrays, there is a `dbRef.push()` method which creates a new ref (with an automatically generated id) to which you can add data to.
 
 ```javascript
 var tags = fbRef.child('tags');
