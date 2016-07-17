@@ -81,7 +81,7 @@ For arrays, there are other listeners for the `dbRef.on()` method:
 
 * `child_added`
 * `child_changed`
-* `child_removed`.
+* `child_removed`
 
 ## Update
 
