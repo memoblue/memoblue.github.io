@@ -2,7 +2,7 @@
 layout: post
 title:  "Firebase CRUD"
 date:   2016-07-13 07:08:45 -04:00
-tags: ['Coding','Database', 'API']
+tags: ['Coding','Database','API','Firebase']
 ---
 
 Here's an overview on how to perform basic CRUD operations with [Firebase][1].
