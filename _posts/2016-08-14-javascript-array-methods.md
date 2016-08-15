@@ -123,7 +123,7 @@ console.log(double); // [4, 6, 8]
 
 ## Array.reduce()
 
-The `reduce()` method reduces an array to a single value by running a callback function that takes 4 arguments: the previous element, the current element, the current index, and (less useful) the array.
+The `reduce()` method reduces an array to a single value by running a callback function that takes 4 arguments: the previous element, the current element, the current index, and (less useful) the array. It also takes an optional starting value as a second argument after the callback.
 
 ```js
 [2,4,5].reduce((prev, next) => prev + next); // 11
