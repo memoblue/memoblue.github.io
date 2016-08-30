@@ -23,7 +23,7 @@ There are a few steps needed to get ESLint to work in Atom:
 
 ## Install ESLint
 
-ESLint won't do anything until you specify which presets you want to use. A popular option nowadays is [eslint-config-airbnb][5] created by the engineers at airbnb. You can use the install instructions there or just copy these to your project's `package.json` file and run `npm install`:
+ESLint won't do anything until you specify which presets you want to use. A popular option nowadays is [eslint-config-airbnb][5]. You can use the install instructions there or just copy these to your project's `package.json` file and run `npm install`:
 
 ```json
 "devDependencies": {
