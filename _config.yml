@@ -17,6 +17,7 @@ twitter_username: mmoblu
 github_username:  memoblue
 
 permalink: /:year/:month/:title
+timezone: America/New_York
 
 # Build settings
 markdown: kramdown
