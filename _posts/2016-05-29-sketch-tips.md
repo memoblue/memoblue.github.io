@@ -51,7 +51,7 @@ The [official shortcuts list][5] is a great source of info.
 1. [Craft][2] is by far the best and a "must have" plugin for Sketch.
 1. [Wanderer][3] allows you to finally navigate you layer list without frustration
 1. [Artboard Tools][4] is not as impressive, but I use it more than Craft.
-1. [SVGO Compressor] is a port of SVGO right into Sketch!
+1. [SVGO Compressor][6] is a port of SVGO right into Sketch!
 
 [1]:https://www.sketchapp.com/learn/documentation/
 [2]:https://labs.invisionapp.com/craft
