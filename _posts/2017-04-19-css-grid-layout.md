@@ -16,7 +16,7 @@ CSS Grid Layout is pure awesomeness. I'd say it's the greatest thing that happen
 
 And most importantly, I messed around on [codepen][codepen] and created a bunch of grids to really get the hang of it.
 
-If you haven't looked into CSS grids yet, _do it_! It's amazing and fun.
+If you haven't looked into CSS grids yet, _do it!_ It's amazing… and fun.
 
 [caniuse]:http://caniuse.com/#feat=css-grid
 [1]:https://webkit.org/blog/7434/css-grid-layout-a-new-layout-module-for-the-web/
