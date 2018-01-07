@@ -26,22 +26,22 @@ const friend2 = new Cow();
 friend2.speak();
 
 // object
-const friend = {
+const friend3 = {
   speak: function() {
-    console.log('blubb');
+    console.log('Meow');
   }
 };
-friend.speak();
+friend3.speak();
 
 // factory
 const friendship = {
   speak() {
-    console.log('wazzup?');
+    console.log('Whoo, hooooooo');
   }
 };
 function makeFriend() {
   return Object.create(friendship);
 }
-const randomFriend = makeFriend();
-randomFriend.speak();
+const friend4 = makeFriend();
+friend4.speak();
 ```
