@@ -5,6 +5,8 @@ date:   2018-01-06 18:44:22 -08:00
 tags: ['Coding','JavaScript']
 ---
 
+How to define: Class vs Constructor vs Object vs Factory.
+
 ```js
 // Class
 class Pig {
