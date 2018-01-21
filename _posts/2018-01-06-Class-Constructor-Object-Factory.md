@@ -5,43 +5,61 @@ date:   2018-01-06 18:44:22 -08:00
 tags: ['Coding','JavaScript']
 ---
 
-How to define: Class vs Constructor vs Object vs Factory.
+Creating objects: Class vs Constructor vs Object literal vs Factory.
 
 ```js
 // Class
-class Pig {
+class Person {
+  constructor(f, l) {
+    this.f = f;
+    this.l = l;
+  }
+
   speak() {
-    console.log('Groink');
+    console.log(`My name is ${this.f} ${this.l}`)
   }
 }
-const friend1 = new Pig();
-friend1.speak();
+
+const sonny = new Person('Sonny', 'Rollins');
+sonny.speak();
+
+
 
 // Constructor
-function Cow() {}
-Cow.prototype.speak = function() {
-  console.log('Moooo');
-};
-const friend2 = new Cow();
-friend2.speak();
-
-// object
-const friend3 = {
-  speak: function() {
-    console.log('Meow');
-  }
-};
-friend3.speak();
-
-// factory
-const friendship = {
-  speak() {
-    console.log('Whoo, hooooooo');
-  }
-};
-function makeFriend() {
-  return Object.create(friendship);
+function PersonConst(f, l) {
+  this.f = f;
+  this.l = l;
 }
-const friend4 = makeFriend();
-friend4.speak();
+
+PersonConst.prototype.speak = function() {
+  console.log(`My name is ${this.f} ${this.l}`);
+}
+
+const john = new PersonConst('John', 'Coltrane');
+john.speak();
+
+// Object
+const personObj = {
+  f: 'default',
+  l: 'default',
+  speak: function() {
+    console.log(`My name is ${this.f} ${this.l}`);
+  }
+}
+
+const joe = Object.create(personObj);
+joe.f = 'Joe';
+joe.l = 'Henderson';
+joe.speak();
+
+// Factory
+function makePerson(f, l) {
+  const p = Object.create(personObj);
+  p.f = f;
+  p.l = l;
+  return p;
+}
+
+const wayne = makePerson('Wayne', 'Shorter');
+wayne.speak();
 ```
