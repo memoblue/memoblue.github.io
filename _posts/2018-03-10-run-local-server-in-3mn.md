@@ -15,7 +15,7 @@ tags: ['Coding','Tip']
 
 **Step 3:** Start Browsersync:
 
-`browser-sync start --server --files --directory "*.js, *.html, *.css"`
+`browser-sync start --server --directory --files "*.js, *.html, *.css"`
 
 That's it!
 
