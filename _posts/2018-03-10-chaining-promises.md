@@ -56,6 +56,6 @@ function listBooksBy(name) {
   
 listBooksBy('Conan Doyle');
 setTimeout(() => {
-  console.log(list);
+  console.log(list); // [("The adventures of Sherlock Holmes", "The Sign of Four")];
 }, 200);
 ```
