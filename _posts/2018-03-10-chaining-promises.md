@@ -5,6 +5,8 @@ date:   2018-03-10 09:12:15 -08:00
 tags: ['Coding','JavaScript']
 ---
 
+A simple example of how to chain promises in JavaScript.
+
 ```js
 const booksMockData = [
   { bookId: 1, authorId: 1, title: 'The Adventures of Sherlock Holmes'},
