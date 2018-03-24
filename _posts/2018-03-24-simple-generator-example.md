@@ -5,9 +5,9 @@ date:   2018-03-24 11:22:49 -07:00
 tags: ['Coding','JavaScript']
 ---
 
-Yes, you should use async/await to query an API. But every generator function tutorial I found online was waaaay too complicated for me, and I found messing around with an API the best way to understand how they work.
-
 This assumes you already read the [MDN docs][mdn] but you're still confused and those [crazy][tut1] [tutorials][tut2] didn't really help.
+
+Yes, you should use async/await to query an API. But every generator function tutorial I found online was waaaay too complicated for me, and I found messing around with an API the best way to understand how they work.
 
 I picked the [Ghibli API][api] because… Who doesn't like Totoro?
 
