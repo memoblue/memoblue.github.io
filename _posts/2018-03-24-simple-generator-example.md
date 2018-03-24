@@ -43,7 +43,7 @@ function getCats(catId) {
 }
 ```
 
-Of course, the problem is to make sure the first fetch is done before you call the second, otherwise your `catId` might be equal to nothing. And that's where generator functions come in handy.
+Of course, the problem is you need to make sure the first fetch is done before you call the second, otherwise your `catId` might be equal to nothing. And that's where generator functions come in handy.
 
 You basically do something like this:
 
@@ -59,9 +59,9 @@ gen.next();
 
 Two things that confused the hell out of me:
 
-**First:** when you call the `listCats()`, nothing happens. That's because you're really just generating an special object on wich you can call `.next()` to go through the different `yield` you setup. And that's about it.
+**First:** when you call the `listCats()`, nothing happens. That's because you're really just generating an special object on wich you can call `.next()` to go through the different `yield` you setup.
 
-**Second:** that `const id = yield getCatId();` syntax really looks like you're sticking the returned value of `getCatId()` in `id`, but that's totally NOT what you're doing. Nope. What you're really doing is sticking whatever is in `.next(stuffGoingIntoId)` in `id`. So you gotta make sure you call that `.next()` in your `getCatId()` and you pass it what you need.
+**Second:** that `const id = yield getCatId();` syntax really looks like you're sticking the returned value of `getCatId()` in `id`, but that's totally **NOT** what you're doing. Nope. What you're really doing is sticking whatever is in `.next(stuffGoingIntoId)` in `id`. So you gotta make sure you call that `.next()` in your `getCatId()` and you pass it what you need.
 
 ## Putting it all together
 
@@ -76,7 +76,7 @@ function getCatId() {
     .then(data => data.json())
     .then((data) => {
       const catId = data.find(s => s.name === 'Cat').url;
-      gen.next(catId);
+      gen.next(catId); // where 'const id' value in generator comes from
     });
 }
 
@@ -86,7 +86,7 @@ function getCats(catId) {
     .then(data => data.json())
     .then((data) => {
       const cats = data.filter(c => c.species === catId);
-      gen.next(cats);
+      gen.next(cats); // where 'const list' value in generator comes from
     });
 }
 
