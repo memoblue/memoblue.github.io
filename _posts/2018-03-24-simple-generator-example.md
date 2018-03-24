@@ -82,7 +82,7 @@ function getCatId() {
 function getCats(catId) {
   fetch('https://ghibliapi.herokuapp.com/people')
     .then(data => data.json())
-    .then((data) => { 
+    .then((data) => {
       const cats = data.filter(c => c.species === catId);
       gen.next(cats);
     });

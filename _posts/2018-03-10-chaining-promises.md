@@ -9,14 +9,14 @@ A simple example of how to chain promises in JavaScript.
 
 ```js
 const booksMockData = [
-  { bookId: 1, authorId: 1, title: 'The Adventures of Sherlock Holmes'},
-  { bookId: 2, authorId: 1, title: 'The Sign of the Four'},
-  { bookId: 3, authorId: 2, title: 'The Jungle Book'},
+  { bookId: 1, authorId: 1, title: 'The Adventures of Sherlock Holmes' },
+  { bookId: 2, authorId: 1, title: 'The Sign of the Four' },
+  { bookId: 3, authorId: 2, title: 'The Jungle Book' },
 ];
 
 const authorsMockData = [
-  { authorId: 1, name: 'Conan Doyle', bio: 'Best writer ever!'},
-  { authorId: 2, name: 'Rudyard Kipling', bio: 'Second best writer ever…'},
+  { authorId: 1, name: 'Conan Doyle', bio: 'Best writer ever!' },
+  { authorId: 2, name: 'Rudyard Kipling', bio: 'Second best writer ever…' },
 ];
 
 let list;
@@ -46,14 +46,14 @@ function getAuthorId(name) {
 function listBooksBy(name) {
   getAuthorId(name)
     .then(data => getBooksByAuthorId(data))
-    .then(data => {
+    .then((data) => {
       list = data.map(book => book.title);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(`Could not get books by ${name}`);
     });
 }
-  
+
 listBooksBy('Conan Doyle');
 setTimeout(() => {
   console.log(list); // [("The adventures of Sherlock Holmes", "The Sign of Four")];
