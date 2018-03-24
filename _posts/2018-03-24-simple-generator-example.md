@@ -13,7 +13,7 @@ I picked the [Ghibli API][api] because… Who doesn't like Totoro?
 
 For my test, I figured I'd hit the `/species` endpoint to get the id of the "Cat" species (which is actually the `url` property). Then pass that id (`url`) to filter the `/people` endpoint to get a list of all the cats. Finally, just add that as a list in the DOM.
 
-It feels like the bear minimum but still realistic example.
+It feels like a bear minimum but still realistic example.
 
 ### Get the id for the "Cat" species
 
