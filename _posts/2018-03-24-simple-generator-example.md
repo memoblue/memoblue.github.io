@@ -7,7 +7,9 @@ tags: ['Coding','JavaScript']
 
 Yes, you should use async/await to query an API. But every generator function tutorial I found online was waaaay too complicated for me, and I found messing around with an API the best way to understand how they work.
 
-I picked the [Ghibli API][api] because… Who doesn't like totoro?
+This assumes you already read the [MDN docs][mdn] but you're still confused and those [crazy][tut1] [tutorials][tut2] didn't really help.
+
+I picked the [Ghibli API][api] because… Who doesn't like Totoro?
 
 For my test, I figured I'd hit the `/species` endpoint to get the id of the "Cat" species (which is actually the `url` property). Then pass that id (`url`) to filter the `/people` endpoint to get a list of all the cats. Finally, just add that as a list in the DOM.
 
@@ -104,4 +106,7 @@ const gen = listCats(); // setup the generator object
 gen.next(); // get the ball rolling
 ```
 
+[mdn]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
 [api]:https://ghibliapi.herokuapp.com/
+[tut1]:https://davidwalsh.name/es6-generators
+[tut2]:https://medium.com/@dtothefp/why-can-t-anyone-write-a-simple-es6-generators-tutorial-ec2bbdf6ff45
