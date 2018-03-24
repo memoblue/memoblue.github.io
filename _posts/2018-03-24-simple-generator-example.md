@@ -63,6 +63,8 @@ Two things that confused the hell out of me:
 
 **Second:** that `const id = yield getCatId();` syntax really looks like you're sticking the returned value of `getCatId()` in `id`, but that's totally NOT what you're doing. Nope. What you're really doing is sticking whatever is in `.next(stuffGoingIntoId)` in `id`. So you gotta make sure you call that `.next()` in your `getCatId()` and you pass it what you need.
 
+## Putting it all together
+
 So if we revisit our functions from earlier, and add those `.next()` calls, the whole thing looks like that:
 
 ```js
