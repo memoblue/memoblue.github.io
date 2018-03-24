@@ -15,7 +15,7 @@ For my test, I figured I'd hit the `/species` endpoint to get the id of the "Cat
 
 It feels like a bear minimum but still realistic example.
 
-### Get the id for the "Cat" species
+## Get the id for the "Cat" species
 
 First you get all the species, and then find the one object in the array that has a name of `Cat` and get its `url` property:
 
@@ -29,7 +29,7 @@ function getCatId() {
 }
 ```
 
-### Filter the people with this id
+## Filter the people with this id
 
 Then you filter the people array so that you only get the object with a `spicies` property equal to the id (`url`) you got previously.
 
