@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How to make calls in parallel with async await"
+title:  "How to make calls in parallel with async/await"
 date:   2018-04-24 09:25:27 -07:00
 tags: ['Coding','JavaScript']
 ---
 
-In my [generator example][gen], I mentionned you should really do that with `async await`, so here's how you'd do it.
+In my [generator example][gen], I mentionned you should really do that with async/await, so here's how you'd do it.
 
 I'm using the [Ghibli API][api] for my examples because… Totoro!
 
@@ -33,4 +33,5 @@ async function listCats() {
 listCats();
 ```
 
-[gen]::{% post_url 2018-03-24-simple-generator-example %}
+[gen]:{% post_url 2018-03-24-simple-generator-example %}
+[api]:https://ghibliapi.herokuapp.com/

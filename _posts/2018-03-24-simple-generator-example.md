@@ -108,7 +108,7 @@ const gen = listCats(); // setup the generator object
 gen.next(); // get the ball rolling
 ```
 
-[async]::{% post_url 2018-04-24-async-await-parallel %}
+[async]:{% post_url 2018-04-24-async-await-parallel %}
 [mdn]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
 [api]:https://ghibliapi.herokuapp.com/
 [tut1]:https://davidwalsh.name/es6-generators
