@@ -7,7 +7,7 @@ tags: ['Coding','JavaScript']
 
 This assumes you already read the [MDN docs][mdn] but you're still confused and those [crazy][tut1] [tutorials][tut2] didn't really help.
 
-Yes, you should use async/await to query an API. But every generator function tutorial I found online was waaaay too complicated for me, and I found messing around with an API the best way to understand how they work.
+Yes, you should use [async/await][async] to query an API. But every generator function tutorial I found online was waaaay too complicated for me, and I found messing around with an API the best way to understand how they work.
 
 I picked the [Ghibli API][api] because… Who doesn't like Totoro?
 
@@ -108,6 +108,7 @@ const gen = listCats(); // setup the generator object
 gen.next(); // get the ball rolling
 ```
 
+[async]::{% post_url 2018-04-24-async-await-parallel %}
 [mdn]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
 [api]:https://ghibliapi.herokuapp.com/
 [tut1]:https://davidwalsh.name/es6-generators
