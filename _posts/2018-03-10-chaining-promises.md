@@ -5,9 +5,7 @@ date:   2018-03-10 09:12:15 -08:00
 tags: ['Coding','JavaScript']
 ---
 
-A simple example of how to chain promises in JavaScript.
-
-First, here's an pretty old but very thorough [intro to promises][promises] which I found really useful.
+Just in case, here's an pretty old but very thorough [intro to promises][promises]. Then, here's a simple example of how to chain promises I put together to help me get my head around the concepts:
 
 ```js
 const booksMockData = [
