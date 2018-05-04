@@ -7,6 +7,8 @@ tags: ['Coding','JavaScript']
 
 A simple example of how to chain promises in JavaScript.
 
+First, here's an pretty old but very thourough [intro to promises][promises] which I found really useful.
+
 ```js
 const booksMockData = [
   { bookId: 1, authorId: 1, title: 'The Adventures of Sherlock Holmes' },
@@ -59,3 +61,5 @@ setTimeout(() => {
   console.log(list); // [("The adventures of Sherlock Holmes", "The Sign of Four")];
 }, 200);
 ```
+
+[promises]:https://developers.google.com/web/fundamentals/primers/promises
