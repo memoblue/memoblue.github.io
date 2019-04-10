@@ -61,13 +61,13 @@ Here's a simplified version of what it should look like:
 
 ## Setup VS code extensions
 
-The simplest way to go about this is to spend 5 minutes to go through all the options in the prefs, but the one thing you need to set to "on" is:
+The simplest way to go about this is to spend 5 minutes to go through all the options in the prefs, but the one thing you need to turn on is:
 
 ```json
 "prettier.eslintIntegration": true
 ```
 
-I also like to set the "format on save" feature to `true`, VS Code will ask you which formatter to use the first time if you got more than one install, super easy "set it and forget it" which make life much easier!
+I also like to set the "format on save" feature to `true`, VS Code will ask you which formatter to use the first time if you got more than one installed, super easy "set it and forget it" which make life much easier!
 
 ```json
 "editor.formatOnSave": true
