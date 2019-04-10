@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "VS Code setup with Eslint and Prittier"
+title: "VS Code setup with Eslint and Prettier"
 date: 2019-04-10 08:37:56 -07:00
 tags: ["Coding", "JavaScript", "vscode", "Workflow"]
 ---
 
-Quick overview on how to setup [Prettier][1] and use it with [ESLint][2] in VS Code. That way Prittier will use your ESLint setup to format your code on save, and use its own defaults for what is not specified in your ESLint setup.
+Quick overview on how to setup [Prettier][1] and use it with [ESLint][2] in VS Code. That way Prettier will use your ESLint setup to format your code on save, and use its own defaults for what is not specified in your ESLint setup.
 
 ## Install ESLint
 
