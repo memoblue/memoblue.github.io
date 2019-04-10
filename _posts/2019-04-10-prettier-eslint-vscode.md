@@ -73,6 +73,10 @@ I also like to set the "format on save" feature to `true`, VS Code will ask you 
 "editor.formatOnSave": true
 ```
 
+## Restart VS Code?
+
+Pro tip? This might just be me, but the "fix on save" was pretty buggy until I restarted VS Code…
+
 [1]: https://eslint.org
 [2]: https://prettier.io
 [3]: https://www.npmjs.com/package/eslint-config-airbnb
